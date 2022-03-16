@@ -1,0 +1,582 @@
+
+ * {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+
+}
+
+header{
+    background-color: #EAC926;
+    font-size: 12px;
+    padding: 40px 10px 10px 10px
+
+    }
+
+header img{
+        width: 50%;
+    }
+
+.logoBusqueda{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    }
+
+.busqueda{
+        width: 50%;
+        color:#ebebeb;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+    }
+
+.barra{
+        flex-grow: 0.70;
+        border-radius: 22px;
+        background-color:#ebebeb;
+        color: black;
+        font-size:14px;
+        font-style: italic;
+    }
+
+.submit{
+        border-radius: 30px;
+        background-color: #ebebeb;
+        font-style: 14px;
+        color: blue;
+}
+
+.comprá{
+    text-align: center;
+    font-weight: 400;
+}
+nav{
+    display: block;
+}
+
+.navbar{
+    width:90%;
+    margin:auto;
+    justify-content:center;
+    display: none;
+    padding: 20px;
+}
+.banner{
+    width:100%;
+}
+
+register
+.color{
+    background-color:#ebebeb;
+}
+.creacion{
+    padding: 20px 15px;
+    margin:10px;
+    background-color:#ebebeb;
+}
+
+.formulario{
+    margin-bottom: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: column;
+    align-items:center;
+    width: 90%;
+    height:90%;
+    border-radius: 30px;
+}
+
+.formulario label{
+    margin-bottom:5px;
+    padding: 20px;
+    font-style: italic;
+    font-size: 10;
+    font-weight: bold;
+}
+.formulario input{
+    color:blue;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #EAC926;
+}
+
+
+
+.botones_e{
+    background-color: green;
+    border:none;
+    font-size: 16px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.botones_b{
+    background-color: red;
+    border:none;
+    font-size: 16px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+Login
+.temas{
+    background-color:#ebebeb;
+}
+.ingresando{
+    padding: 20px 15px;
+    margin: 10px;
+    background-color: #ebebeb;
+}
+.ingreso{
+    margin-bottom: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: column;
+}
+.ingreso label{
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 20;
+    font-weight: bold;
+    display: block;
+}
+
+.ingreso input{
+    color:blue;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #EAC926;
+}
+
+.boton{
+    background-color: green;
+    border:none;
+    font-size: 16px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 450ms;
+}
+
+
+
+/*.fondo{
+    width: 90px;
+    margin:auto;
+}*/
+
+main img{
+    width: 100%;
+    height: auto;
+}
+
+.precioDescuento{
+    display: flex;
+    border-top: 1px solid #ebebeb;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.precio{
+    flex-grow: 0.30;
+}
+.transporte a i{
+    display: block;
+    font-size: 24px;
+    padding:5px;
+    width:42px;
+    height:42px;
+    border: 1px solid #39b54a;
+    background-color:#fff;
+    border-radius: 50px;
+    position: absolute;
+    right:20px;
+    top: -15px;
+    color: #39b54a;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lista{
+        display:none;
+    }
+
+    .lista ul{
+        list-style: none;
+        margin: 0;
+        padding:0;
+    }
+
+    .lista li a {
+        color: black;
+        font-size: 12px;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 0;
+    }
+
+
+h3{
+    font-size: 24px;
+    margin: 20px 0px 20px 20px;
+}
+
+article{
+    margin:10px;
+    padding: 15px;
+    border-color:#666;
+}
+
+.precio{
+    font-size: 18px;
+    flex-grow: 0.30%;
+    align-items: center;
+    }
+
+.desc{
+    font-size: 16px;
+    color:#39b54a;
+    flex-grow: 0.70%;
+    align-items: center;
+}
+h4{
+    font-size: 16px;
+    border-top: 1px solid #ebebeb;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+
+
+.burguer-menu i{
+    background-color:#03264C;
+    border-radius: 5px;
+    padding: 10px;
+}
+.burguer-menu{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/*.descrip{
+    display: none;
+}*/
+
+main{
+    width:90%;
+    margin:auto;
+}
+
+
+/*.visita{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: stretch;
+}*/
+
+
+.articuloSolo{
+    border-top: 2px solid #ebebeb;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    position:relative;
+}
+
+.transporte{
+    padding: 5px;
+    margin-bottom: 90px;
+    font-size: 2em;
+    display: block;
+}
+
+/*.fa-truck{
+    display: block;
+    font-size: 16px;
+    padding:5px;
+    width:30px;
+    height:30px;
+    border: 1px solid #39b54a;
+    background-color:#fff;
+    border-radius: 50px;
+    position: absolute;
+    right:20px;
+    top: -15px;
+}*/
+
+.descrip{
+    text-align:justify;
+    color:black;
+    font-size: 20px;
+}
+
+
+footer
+
+.pie{
+    display: flex;
+}
+
+p{
+    text-align: center;
+}
+
+.otro{
+    text-align: left;
+}
+.titulo{
+    color: black;
+}
+
+.text{
+    color: #666;
+}
+
+.tarjeta i{
+    background-color:#03264C;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom:10px ;
+    font-size: 2em;
+    transition: all 1000ms;
+
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja i{
+    background-color:#03264C;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom:10px ;
+    font-size: 2em;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seguridad i{
+    background-color:#03264C;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom:10px ;
+    font-size: 2em;
+}
+.seguridad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+strong{
+    margin: 10px;
+    padding: 10px;
+}
+
+@media(min-width: 520px){
+    article{
+        box-shadow: 0px 0px 10xp rgb(100, 100, 100);
+        width: 250px;
+    }
+
+    .articuloSolo{
+        display: block;
+    }
+    .transporte{
+        display: block;
+    }
+    .descrip{
+        display: block
+    }
+    .visita, .oferta{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .lista{
+        display:none;
+    }
+    .burguer-menu{
+        display: flex;
+    }
+    .comprá{
+        max-width: 300px;
+        text-align: right;
+    }
+
+    .lista ul, li a {
+        display:none;
+    }
+
+    .navbar{
+        width: 400px;
+        display:flex;
+}
+
+
+
+
+@media(min-width: 781px){
+
+    article{
+        box-shadow: 0px 0px 10xp rgba(100, 100, 100),0;
+        transition: all 450ms;
+    }
+
+    article:hover{
+        box-shadow: 0px 0px 10xp rgba(100, 100, 100,2);
+    }
+    articuloSolo{
+        display: block;
+    }
+    .transporte{
+        display: block;
+    }
+    .descrip{
+        display: block;
+    }
+    .visita, .oferta{
+        flex-wrap: nowrap;
+    }
+    .lista{
+        display: flex;
+        justify-content: space-between;
+    }
+    .comprá{
+        max-width: 350px;
+        text-align: right;
+    }
+
+    .burguer-menu{
+        display: none;
+    }
+    .navbar{
+    display:none;
+}
+.lista li a{
+    margin: 0 5px;
+}
+.lista ul{
+    display: flex;
+}
+h4 {
+    opacity: 0;
+    transition: all 450ms;
+    border-radius:50px;
+}
+h4:hover{
+    opacity:1;
+    background-color: teal;
+}
+.transporte a i:hover{
+    transform: rotate(90deg);
+    transition-duration: 1000ms;
+}
+
+.boton:hover{
+    background-color:#0022AA;
+}
+
+footer
+.pie{
+flex-direction: nowrap;
+justify-content: space-between;
+align-self: center;
+}
+
+.tarjeta i:hover{
+background-color: yellow;
+}
+
+.caja i:hover{
+    background-color:yellow;
+    }
+
+.seguridad i:hover{
+        background-color: yellow;
+        }
+
+}
+
+
+
+    error_message{
+        display:none;
+        color:red;
+    }
+
+    input[name="name"]:invalid + span.error_message{
+        display:inline;
+ /*para mostrar error. Se puede aplicar en cada campo que queramos generandolo en cada uno por separado*/
+    }
+/*@media(min-width: 481px){
+    .lista{
+        display:none;
+    }
+    .burguer-menu{
+        display: flex;
+    }
+    .comprá{
+        max-width: 300px;
+        text-align: right;
+    }
+
+    .lista ul, li a {
+        display:none;
+    }
+
+    .navbar{
+        width: 400px;
+        display:flex;
+}
+}*/
+
+/*@media(min-width:781px){
+    .lista{
+        display: flex;
+        justify-content: space-between;
+    }
+    .comprá{
+        max-width: 350px;
+        text-align: right;
+    }
+
+    .burguer-menu{
+        display: none;
+    }
+
+    .navbar{
+    display:none;
+}
+.lista li a{
+    margin: 0 5px;
+}
+.lista ul{
+    display: flex;
+}
+}*/
+}

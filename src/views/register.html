@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+
+<body>
+    <div class="color">
+    <form action="/register" method="POST" class="creacion">
+        <div class="formulario">
+        <label for="nombre y apellido">Nombre y Apellido:</label>
+        <br>
+        <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" minlength="2">
+        <span class="error_mensaje">El valor ingresado es incorrecto</span>
+        </div>
+        <br><br>
+
+        <div class="formulario">
+        <label for="nombre de usuario">Nombre de usuario:</label >
+        <br>
+        <input type="email" name="email" placeholder="E-mail" requerid>
+        </div>
+        <br><br>
+
+        <div class="formulario">
+        <label for="birth_date">Fecha de nacimiento:</label>
+        <br>
+        <input type=" date" name="birth_date" id="birth_date">
+        </div>
+        <br><br>
+
+        <div class="formulario">
+        <label for="domicilio">Domicilio:</label>
+        <br>
+        <input type="domicilio" name="Domicilio" placeholder="domicilio">
+        </div>
+        <br><br>
+
+        <div class="formulario">
+        <label for="comprar"> Comprar:</label>
+        <input type="radio" name="profile" value="comprar" checked>
+        <br>
+
+        <label for="Vender">Vender:</label>
+        <input type="radio" name="profile" value="vender" checked>
+        <br>
+
+        <label for="electro">Electro:</label>
+        <br>
+        <input type="checkbox" name="Interes" value="electro" id="electro">
+        <br>
+
+        <label for="moda">Moda:</label>
+        <br>
+        <input type="checkbox" name="Interes" value="moda" id="moda">
+        <br>
+
+        <label for="hogar">Hogar:</label>
+        <br>
+        <input type="checkbox" name="Interes" value="hogar" id="hogar">
+        <br>
+
+        <label for="jugueteria">Juguetería:</label>
+        <br>
+        <input type="checkbox" name="Interes" value="jugueteria" id="jugueteria">
+        <br>
+
+        <label for="vida sana">Vida sana:</label>
+        <br>
+        <input type="checkbox" name="Interes" value="vida sana" id="vida sana">
+        </div>
+        <br>
+
+        <div class="formulario">
+        <label for="foto">Foto:</label>
+        <br>
+        <input type="file" name="foto" accept=".jpg" multiple>
+        </div>
+        <br>
+
+        <div class="formulario">
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" name="password" placeholder="Ingresá tu contraseña" requerid>
+        </div>
+        <br><br>
+
+        <div class="formulario">
+        <label for="password">Confirmar Password:</label>
+        <br>
+        <input type="password" name="password" placeholder="Confirmá tu contraseña" requerid>
+        </div>
+        <br><br>
+
+        <input type="reset" name="Borrar" value="Borrar" class="botones_b">
+        
+        <input type="submit" name="Enviar" value="Enviar" class="botones_e">
+
+    </form>
+</div>
+</body>
+
+
+</html>
