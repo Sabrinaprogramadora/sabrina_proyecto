@@ -16,4 +16,4 @@ app.get("/", (req, res) =>
 
 
 
-app.listen(PORT, () => console.log("estoy funcionando en el puerto " + port));
+app.listen(PORT, () => console.log("estoy funcionando en el puerto " + PORT));
